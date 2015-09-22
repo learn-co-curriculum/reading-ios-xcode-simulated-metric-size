@@ -24,18 +24,23 @@ Because having size classes enabled affects the availability of segue types, it'
 To set a simulated size within the storyboard itself, follow the steps outlined below:
 
 1 — Navigate to the storyboard file in your open application by using the Project Navigator in the Navigator Area.  
+
 2 — Select the View Controller in the storyboard whose simulated size you wish to change.  
+
 3 — Select the File Inspector pane in the Utilities Area.  
+
 4 — Verify that the Use Size Classes option in the Interface Builder Document section is selected.
 
 ![](https://curriculum-content.s3.amazonaws.com/ios-segues-and-nav-controllers-unit/xcode_verify_size_classes.png)
 
 5 — Select the Attributes Inspector pane (the fourth symbol) in the Utilities Area.  
+
 6 — Open the drop down menu for Size in the Simulated Metrics section.
 
 ![](https://curriculum-content.s3.amazonaws.com/ios-segues-and-nav-controllers-unit/xcode_size_menu.png)
 
 7 — Select the display size you wish to simulate (the iPhone 6/6S are 4.7 inches in screen size).  
+
 8 — The View Controller's representation in the storyboard will change size according to your selection.
 
 ![](https://curriculum-content.s3.amazonaws.com/ios-segues-and-nav-controllers-unit/xcode_size_iphone6.png
