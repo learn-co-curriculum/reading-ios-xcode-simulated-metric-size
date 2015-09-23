@@ -3,7 +3,7 @@
 ## Objectives
 
 1. Identify various iOS device size classes.
-2. Set an explicit Simulated Metric Size while size classes are turned on.
+2. Set an explicit Simulated Metric Size while size classes are enabled.
 
 ## Size Classes
 
@@ -15,9 +15,11 @@ Enter size classes.
 
 Size classes allow the application to dynamically assess how it should lay itself out on a screen without needing explicit knowledge of the current device type. To encourage developers to program their layouts to be independent of any particular device, the default canvas size for a view controller in a storyboard file is an unusual 600 x 600 point square — a size which does not nor ever shall correspond to the dimensions of any existing or future iOS-capable mobile device.
 
+**Note:** *A "point" is a measure of physical size roughly equivalent to one pixel on the original iPhone, which had 164.8 pixels (i.e. "points") per linear inch.*
+
 While this has value in reminding seasoned developers to think outside the context of any single device, it takes an understanding of autolayout constraints to execute successfully — a topic which will not be covered until later. While you are learning how to use Interface Builder to create storyboarded applications, you should begin with static layouts designed for a single device shape that you are familiar with. Once you have gained experience with the basics of Interface Builder and storyboards, it will then be time to return to the generic 600 x 600 point canvas.
 
-Because having size classes enabled affects the availability of segue types, it's necessary to have them turned on. However, to present a familiar canvas in the storyboard, a simulated metric size can be selected to render a canvas of a specific size. The section below will walk you through how to select a simulated metric size for a view controller when size classes are enabled.
+Because having size classes enabled affects the availability of segue types, it's necessary to have them turned on. However, to present a familiar canvas in the storyboard, a simulated metric size can be selected to render a canvas of a specific size. While some of labs will provide you with a view controller already set to a simulated metric size, the section below will walk you through how to change this selection on your own.
 
 ## Setting the Simulated Metric Size
 
