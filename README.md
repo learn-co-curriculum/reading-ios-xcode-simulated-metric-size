@@ -19,7 +19,7 @@ Size classes allow the application to dynamically assess how it should lay itsel
 
 While this has value in reminding seasoned developers to think outside the context of any single device, it takes an understanding of autolayout constraints to execute successfully — a topic which will not be covered until later. While you are learning how to use Interface Builder to create storyboarded applications, you should begin with static layouts designed for a single device shape that you are familiar with. Once you have gained experience with the basics of Interface Builder and storyboards, it will then be time to return to the generic 600 x 600 point canvas.
 
-Because having size classes enabled affects the availability of segue types, it's necessary to have them turned on. However, to present a familiar canvas in the storyboard, a simulated metric size can be selected to render a canvas of a specific size. While some of labs will provide you with a view controller already set to a simulated metric size, the section below will walk you through how to change this selection on your own.
+Because having size classes enabled affects the availability of segue types, it's necessary to have them turned on. However, to present a familiar canvas in the storyboard, a simulated metric size can be selected to render a canvas of a specific size. While some of the labs will provide you with a view controller already set to a simulated metric size, the section below will walk you through how to change this selection on your own.
 
 ## Setting the Simulated Metric Size
 
