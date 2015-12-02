@@ -47,3 +47,4 @@ To set a simulated size within the storyboard itself, follow the steps outlined 
 
 ![](https://curriculum-content.s3.amazonaws.com/ios-segues-and-nav-controllers-unit/xcode_size_iphone6.png
 )
+<a href='https://learn.co/lessons/reading-ios-xcode-simulated-metric-size' data-visibility='hidden'>View this lesson on Learn.co</a>
